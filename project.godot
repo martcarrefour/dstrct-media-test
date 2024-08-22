@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DSTRCT Media Test"
-run/main_scene="res://battle.tscn"
+run/main_scene="res://scenes/battle/battle.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
