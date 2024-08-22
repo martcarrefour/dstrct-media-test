@@ -10,10 +10,6 @@ For example, in the `generate_unique_combinations` function, the code currently 
 Similarly, for determining turn order when initiatives are identical, I’ve implemented an approach using noise. Simply adding randomness directly to the sorting algorithm isn’t recommended because it can lead to unstable sorting behavior, where the order of elements can change unpredictably between runs. There are other approaches for handling this situation more elegantly.
 
 
-## Overview
-
-This project implements a turn-based combat system using the Godot Engine. The system includes player-controlled and AI-controlled combatants, each with unique stats, initiative-based turn order, and a round-based structure. The combat system supports key mechanics such as initiative rolling, turn-based execution, and handling random damage during attacks.
-
 ## Project Structure
 
 ```plaintext
